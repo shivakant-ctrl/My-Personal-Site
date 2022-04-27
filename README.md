@@ -1,2 +1,2 @@
 # My-Personal-Site
-Name explains itself
+Website name explains itself
