@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Element Selector */
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Tapestry', cursive;
+    font-size: 60px;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 30px;
+}
+
+h3 {
+    color: #66BFBF;
+}
+
+div > img {
+    display: block;
+    margin: auto;   
+}
+
+div {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+button {
+    margin: 20px auto;
+}
+
+p {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 460;
+}
+
+button {
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 3px;
+    background-color: #66BFBF;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+}
+
+/* Class Selector */
+
+.row {
+    height: 200px;
+    width: 100%;
+}
+
+.col1 {
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+}
+
+.col2 {
+    display: inline-block;
+    height: 100%;
+    text-align: left;
+    vertical-align: top;
+    width: 40%;
+}
+
+.col1 > img {
+    height: 200px;
+    width: 200px;
+}
+
+.col3 > img {
+    height: 200px;
+    width: 200px;
+}
+
+.intro {
+    margin: auto;
+    margin-bottom: 50px;
+    width: 40%;
+}
+
+.contact {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 40%;
+}
+
+.header {
+    background-color: #EAF6F6;
+}
+
+.footer {
+    background-color: #66BFBF;
+    padding: 50px;
+    margin-bottom: 0;
+}
+
+.footer > p {
+    margin: 60px auto 0;
+    color: white;
+}
+
+.footer > a {
+    color: #11999E;
+    margin: auto 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* Id Selector */
+
+#cloud1 {
+    position: relative;
+    left: 400px;
+}
+
+#cloud2 {
+    position: relative;
+    right: 400px;
+}
+
+#shivakant-photo {
+    height: 250px;
+    width: 250px;
+}
